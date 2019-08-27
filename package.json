@@ -1,0 +1,23 @@
+{
+  "name": "zeit-serverless",
+  "version": "0.1.0",
+  "description": "Samples using zeit serverless functions",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ccarruitero/zeit-serverless.git"
+  },
+  "author": "César Carruitero",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ccarruitero/zeit-serverless/issues"
+  },
+  "homepage": "https://github.com/ccarruitero/zeit-serverless#readme",
+  "dependencies": {
+    "hapi": "^16.1.0",
+    "hapi-auth-jwt2": "^7.2.4",
+    "joi": "^10.2.0"
+  },
+  "devDependencies": {
+    "now": "^16.1.2"
+  }
+}
