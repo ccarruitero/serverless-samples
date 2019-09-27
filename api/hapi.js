@@ -16,7 +16,7 @@ const init = async () => {
   const registerRoutes = () => {
     server.route({
       method: 'GET',
-      path: '/api/private',
+      path: '/api/hapi',
       config: {
         auth: 'jwt',
         handler: (req, res) => {
