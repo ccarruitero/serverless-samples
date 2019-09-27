@@ -12,12 +12,20 @@
     "url": "https://github.com/ccarruitero/zeit-serverless/issues"
   },
   "homepage": "https://github.com/ccarruitero/zeit-serverless#readme",
+  "scripts": {
+    "zeit-start": "now dev",
+    "google-start": "cd google && functions-framework --target=auth"
+  },
   "dependencies": {
+    "express": "^4.17.1",
+    "express-jwt": "^5.3.1",
     "hapi": "^16.1.0",
     "hapi-auth-jwt2": "^7.2.4",
-    "joi": "^10.2.0"
+    "joi": "^10.2.0",
+    "jwks-rsa": "^1.6.0"
   },
   "devDependencies": {
+    "@google-cloud/functions-framework": "^1.2.1",
     "now": "^16.1.2"
   }
 }
