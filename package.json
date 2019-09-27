@@ -17,15 +17,15 @@
     "google-start": "cd google && functions-framework --target=auth"
   },
   "dependencies": {
+    "@hapi/hapi": "^18.4.0",
+    "@hapi/joi": "^16.1.4",
     "express": "^4.17.1",
     "express-jwt": "^5.3.1",
-    "hapi": "^16.1.0",
-    "hapi-auth-jwt2": "^7.2.4",
-    "joi": "^10.2.0",
+    "hapi-auth-jwt2": "^8.6.2",
     "jwks-rsa": "^1.6.0"
   },
   "devDependencies": {
     "@google-cloud/functions-framework": "^1.2.1",
-    "now": "^16.1.2"
+    "now": "^16.2.0"
   }
 }
