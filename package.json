@@ -1,17 +1,17 @@
 {
-  "name": "zeit-serverless",
+  "name": "serverless-samples",
   "version": "0.1.0",
-  "description": "Samples using zeit serverless functions",
+  "description": "Samples using serverless functions",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ccarruitero/zeit-serverless.git"
+    "url": "git+https://github.com/ccarruitero/serverless-samples.git"
   },
   "author": "César Carruitero",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ccarruitero/zeit-serverless/issues"
+    "url": "https://github.com/ccarruitero/serverless-samples/issues"
   },
-  "homepage": "https://github.com/ccarruitero/zeit-serverless#readme",
+  "homepage": "https://github.com/ccarruitero/serverless-samples#readme",
   "scripts": {
     "zeit-start": "now dev",
     "google-start": "cd google && functions-framework --target=auth"
