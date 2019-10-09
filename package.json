@@ -26,6 +26,6 @@
   },
   "devDependencies": {
     "@google-cloud/functions-framework": "^1.2.1",
-    "now": "^16.2.0"
+    "now": "^16.3.1"
   }
 }
