@@ -13,7 +13,7 @@
   },
   "homepage": "https://github.com/ccarruitero/serverless-samples#readme",
   "scripts": {
-    "zeit-start": "now dev",
+    "zeit-start": "cd zeit && now dev",
     "google-start": "cd google && functions-framework --target=auth"
   },
   "dependencies": {
