@@ -1,0 +1,22 @@
+service:
+    name: meetup
+
+provider:
+  name: aws
+  region: ${self:custom.env.AWS_REGION}
+
+plugins:
+
+custom:
+  env: ${file(env.yml):default}
+
+functions:
+  meetup:
+    name: meetup
+    script: meetup
+    events:
+      - http:
+          url: 'api.meetup.com/${self:custom.env.MEETUP_NAME}/events?desc=true&photo-host=public&page=20&sig_id=${self:custom.env.MEETUP_USER}&status=upcoming%2Cpast&sig=${self:custom.env.MEETUP_TOKEN}&callback=events'
+          method: get
+          headers:
+            content-type: 'application/json'
