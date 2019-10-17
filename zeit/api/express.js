@@ -26,11 +26,3 @@ app.get('/api/express', function (req, res) {
 // app.listen(port, () => console.log(`app listening on port ${port}!`));
 
 module.exports = app;
-
-/*
-https://auth0.com/docs/quickstart/spa/vanillajs/02-calling-an-api
-****^
-https://auth0.com/docs/quickstart/spa/vanillajs
-
-https://auth0.com/docs/quickstart/backend/nodejs/01-authorization
-*/
