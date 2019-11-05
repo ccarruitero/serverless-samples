@@ -3,10 +3,12 @@ service:
 
 provider:
   name: aws
+  runtime: nodejs12.x
   region: ${self:custom.env.AWS_REGION}
 
 plugins:
-
+  - serverless-offline
+  - serverless-mocha-plugin
 custom:
   env: ${file(env.yml):default}
 
