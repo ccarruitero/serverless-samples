@@ -1,0 +1,22 @@
+service:
+  name: chatbot
+
+plugins:
+  - serverless-webpack
+  - serverless-offline
+provider:
+  name: aws
+  runtime: nodejs10.x
+
+functions:
+  first:
+    handler: first.hello
+  second:
+    handler: second.hello
+    events:
+      - http:
+          method: get
+          path: second
+      - http:
+          method: post
+          path: second
