@@ -5,6 +5,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "author": "César Carruitero",
+  "license": "MIT",
+  "dependencies": {
+    "botbuilder-adapter-facebook": "^1.0.6",
+    "botkit": "^4.6.1"
+  },
   "devDependencies": {
     "@babel/core": "^7.7.2",
     "@babel/plugin-transform-runtime": "^7.6.2",
@@ -14,7 +20,5 @@
     "serverless-offline": "^5.12.0",
     "serverless-webpack": "^5.3.1",
     "webpack": "^4.35.2"
-  },
-  "author": "César Carruitero",
-  "license": "MIT"
+  }
 }
